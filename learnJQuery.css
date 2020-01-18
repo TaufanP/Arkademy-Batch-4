@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: 300px;
+}
+
+.firstTest, 
+.secondTest, 
+.thirdTestA, .thirdTestB, .thirdTestC, .thirdTestD, 
+.fourthTestA, .fourthTestB, .fourthTestC,
+.fifthTest,
+.sixthTest,
+#firstTest{
+    width:100px;
+    height: 100px;
+    float: left;
+    margin : 10px;
+    text-align: center;
+}
+
+.firstTest{background-color: red;}
+.secondTest{background-color: green;}
+.thirdTestA{background-color: gold;}
+.thirdTestB{background-color: orange;}
+.thirdTestC{background-color: blue}
+.thirdTestD{background-color: aquamarine}
+.fourthTestA{background-color: brown}
+.fourthTestB{background-color: firebrick}
+.fourthTestC{background-color: greenyellow}
+.fifthTest{background-color: orchid}
+.sixthTest{background-color: purple}
+
+#firstTest{background-color: aqua;}
+
+.thirdTestA, .thirdTestB, .thirdTestC, .fourthTestB{display: none;}
+
+.gambar{
+	margin: 10px 10px 10px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.border{
+	border: 5px solid blue;
+}
